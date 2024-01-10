@@ -1,0 +1,35 @@
+@media screen and (max-width:787px) {
+    .container {
+        width: 95%;
+    }
+
+    .bg-img {
+        background-attachment: scroll !important;
+    }
+
+    .main-title p {
+        width: 90%;
+        margin: auto !important;
+    }
+
+    header .header-content h1 {
+        font-size: 48px;
+    }
+
+    header .header-content .typed::after {
+        font-size: 24px;
+    }
+
+    .about .inner {
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+    }
+
+    .about h5 {
+        margin-top: 60px;
+    }
+
+    .top {
+        display: none;
+    }
+}

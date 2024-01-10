@@ -1,0 +1,155 @@
+@keyframes typed {
+    0%{
+        content:"D|"
+    }
+    2%{
+        content: "De|";
+    }
+    4%{
+        content:"Dev|"
+    }
+    6%{
+        content: "Deve|";
+    }
+    8%{
+        content:"Devel|"
+    }
+    10%{
+        content: "Develo|";
+    }
+    12%{
+        content:"Develop|"
+    }
+    14%{
+        content: "Develope|";
+    }
+    16%{
+        content:"Developer|"
+    }
+    18%{
+        content: "Develope|";
+    }
+    20%{
+        content: "Develop|";
+    }
+    22%{
+        content: "Develo|";
+    }
+    24%{
+        content: "Devel|";
+    }
+    26%{
+        content: "Deve|";
+    }
+    28%{
+        content: "Dev|";
+    }
+    30%{
+        content: "De|";
+    }
+    32%{
+        content: "D|";
+    }
+    34%{
+        content: "|";
+    }
+    36%{
+        content: "F|";
+    }
+    38%{
+        content: "Fre|";
+    }
+    40%{
+        content: "Free|";
+    }
+    42%{
+        content: "Freel|";
+    }
+    44%{
+        content: "Freela|";
+    }
+    46%{
+        content: "Freelan|";
+    }
+    48%{
+        content: "Freelanc|";
+    }
+    50%{
+        content: "Freelance|";
+    }
+    52%{
+        content: "Freelancer|";
+    }
+    54%{
+        content: "Freelance|";
+    }
+    56%{
+        content: "Freelanc|";
+    }
+    58%{
+        content: "Freelan|";
+    }
+    60%{
+        content: "Freela|";
+    }
+    62%{
+        content: "Freel|";
+    }
+    64%{
+        content: "Free|";
+    }
+    66%{
+        content: "Fre|";
+    }
+    68%{
+        content: "Fr|";
+    }
+    70%{
+        content: "F|";
+    }
+    72%{
+        content: "D|";
+    }
+    74%{
+        content: "De|";
+    }
+    76%{
+        content: "Des|";
+    }
+    78%{
+        content: "Desi|";
+    }
+    80%{
+        content: "Desig|";
+    }
+    82%{
+        content: "Design|";
+    }
+    84%{
+        content: "Designe|";
+    }
+    86%{
+        content: "Designer|";
+    }
+    88%{
+        content: "Designe|";
+    }
+    90%{
+        content: "Design|";
+    }
+    92%{
+        content: "Desig|";
+    }
+    94%{
+        content: "Desi|";
+    }
+    96%{
+        content: "Desi|";
+    }
+    98%{
+        content: "Des|";
+    }
+    100%{
+        content: "D|";
+    }
+}

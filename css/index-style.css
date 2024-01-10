@@ -1,0 +1,325 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p {
+    margin: 0;
+}
+
+:root {
+    --main-color: #0078FF;
+    --second-color: #1E1E1E;
+}
+
+.second-color {
+    color: var(--second-color);
+}
+
+.bg-img {
+    background-size: cover !important;
+    background-position: center center !important;
+    background-attachment: fixed !important;
+    background-repeat: no-repeat !important;
+}
+
+.main-title h2 {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.title-line {
+    width: 40px;
+    height: 5px;
+    background-color: var(--main-color);
+    margin: auto;
+
+}
+
+body {
+    background-color: #F5F5F5;
+    color: #4E4E4E;
+}
+/* top */
+.top{
+    width: 40px;
+    height: 40px;
+    background-color: var(--main-color);
+    border-radius: 50%;
+    position: sticky;
+    top: 90% ;
+    left: 97%;
+    z-index: 9999;
+}
+
+/* =======================navbar============================== */
+nav {
+    background-color: rgba(0, 0, 0, 0.9) !important;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999999999;
+}
+
+.navbar-nav a {
+    position: relative;
+}
+
+.navbar-nav a::before {
+    content: "";
+    position: absolute;
+    width: 65%;
+    height: 3px;
+    background-color: #fff;
+    bottom: 0;
+    transform:scaleX(0) ;
+    transform-origin:left ;
+    transition: .5s;
+}
+.navbar-nav a:hover::before{
+    transform: scalex(1);
+}
+
+.navbar-nav .active::before {
+    content: "";
+    position: absolute;
+    width: 65%;
+    height: 3px;
+    background-color: #fff;
+    bottom: 0;
+    transform: scale(1);
+}
+.navbar-toggler-icon{
+    color: white;
+}
+
+/* ====================header========================== */
+header {
+    height: 100vh;
+    background-image: url(../image/hero-bg.jpg);
+}
+
+header .overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+header .header-content h1 {
+    font-size: 72px;
+}
+
+header .header-content .typed::after {
+    content: "";
+    font-size: 40px;
+    animation: typed 8s infinite;
+}
+
+/* ==================about================== */
+.about .skills .skill .space {
+    height: 10px;
+    width: 100%;
+    background-color: #CDE1F8;
+}
+
+.about .skills .skill .space .space-line,
+.space-line2,
+.space-line3,
+.space-line4 {
+    background-color: var(--main-color);
+    height: inherit;
+}
+
+.about .skills .skill .space .space-line {
+    width: 85%;
+}
+
+.about .skills .skill .space .space-line2 {
+    width: 75%;
+}
+
+.about .skills .skill .space .space-line3 {
+    width: 50%;
+}
+
+.about .skills .skill .space .space-line4 {
+    width: 90%;
+}
+
+.about-content span {
+    font-size: 17.6px;
+    color: var(--second-color);
+    font-weight: 600;
+}
+
+.about .inner {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.about .content p {
+    font-weight: 300;
+}
+
+.about h5::after {
+    position: absolute;
+    content: "";
+    bottom: 0;
+    left: 0;
+    background-color: var(--main-color);
+    width: 100px;
+    height: 3px;
+}
+
+/* =============================servies=============================== */
+.servies-card .icon {
+    border: 10px solid var(--main-color);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    transition: all .3s;
+}
+
+.servies-card {
+    padding: 2rem 1.3rem;
+}
+
+.servies-card .icon:hover {
+    border-color: #CDE1F8;
+    background-color: var(--main-color);
+    color: white;
+}
+
+.servies-card h3 {
+    font-size: 22.4px;
+}
+
+/* =====================counterr========================= */
+.counter {
+    background: linear-gradient(rgba(0, 119, 255, .7)0% 100%), url(../image/counters-bg.jpg);
+
+}
+
+.counter .icon {
+    border: 10px solid #CDE1F8;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    transition: all .3s;
+}
+
+/* ==========================protfolio ============================= */
+.protfolio-img img {
+    transition: all 1.5s;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.protfolio img:hover {
+    transform: scale(1.3, 1.3);
+}
+
+.protfolio .protfolio-content p {
+    font-size: 12.8px;
+}
+
+.protfolio .protfolio-content span {
+    color: var(--main-color);
+}
+
+.protfolio .protfolio-content .content-icon {
+    border: 2px solid var(--main-color);
+    width: 50px;
+    height: 50px;
+    color: var(--main-color);
+}
+
+/* =================================carousel=========================== */
+.carousel {
+    background-image: linear-gradient(rgba(0, 119, 255, .7)0% 100%), url(../image/overlay-bg.jpg);
+}
+
+/* ===============blog=============== */
+.blog .card-end {
+    border-top: 1px solid rgb(218, 216, 216);
+}
+
+.blog .card-title a {
+    transition: .3s;
+}
+
+.blog .card-title a:hover {
+    color: var(--main-color) !important;
+}
+
+/*===========================contacts============================== */
+.contacts {
+    background-image: linear-gradient(rgba(0, 119, 255, .7)0% 100%), url(../image/overlay-bg.jpg);
+    box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
+}
+
+.contacts .row {
+    padding: 3rem;
+}
+
+.contacts input,
+textarea {
+    padding: 10px 15px;
+    box-shadow: none;
+    border: 1px solid #e3e2e2;
+    outline: none;
+    font-size: 14px;
+}
+
+.contacts input:focus,
+textarea:focus {
+    border-color: var(--main-color);
+    box-shadow: 30px 30px 30px 10px rgba(13, 110, 253, .25)
+}
+
+.contacts button {
+    background: #0078ff;
+    border: 0;
+    padding: 10px 24px;
+    color: #fff;
+    transition: 0.4s;
+    width: fit-content;
+    border-radius: 30px;
+}
+
+.contacts h5::before {
+    position: absolute;
+    content: "";
+    height: 3px;
+    background-color: #0078ff;
+    width: 100px;
+    bottom: 35px
+}
+
+.contacts .text {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.contacts .get i {
+    color: var(--main-color);
+}
+
+.contacts .social .icon {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: 3px solid var(--main-color);
+    cursor: pointer;
+    transition: all .8s;
+}
+
+.contacts .social .icon:hover {
+    border: 3px solid #e3e2e2;
+    background-color: var(--main-color);
+    color: white;
+}
+
+/* ============================footer======================== */
+footer {
+    background-color: #0062D3;
+}
